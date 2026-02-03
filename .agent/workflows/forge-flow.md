@@ -2,14 +2,14 @@
 description: Create new Agents, Skills, and Workflows automatically using the Meta-Builder system.
 ---
 
-# /forge - Meta-Builder Workflow
+# /forge-flow - Meta-Builder Workflow
 
 $ARGUMENTS
 
 ---
 
 ## Purpose
-The `/forge` command initiates the "Genesis" process to create new system components (Agents, Skills, Workflows) based on natural language descriptions.
+The `/forge-flow` command initiates the creation of **Workflows** (Slash Commands) and their required components.
 
 ## Execution Flow
 

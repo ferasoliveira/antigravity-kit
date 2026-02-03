@@ -289,13 +289,20 @@ Slash Command Flow:
     5. Verify: Health checks
     6. Output: Deployment URL
 
-/forge
+/forge-flow (Workflow Builder)
     ↓
     1. Discovery: System Architect analyzes request
-    2. Design: Create Blueprint (Agents + Skills + Workflow)
-    3. Fabrication: Forge Master generates files (Rich Content)
-    4. Validation: Verify syntax and register components
-    5. Output: New capability ready to use
+    2. Design: Create Workflow Blueprint
+    3. Fabrication: Forge Master generates Slash Command
+    4. Integration: Register new command
+
+/forge-agent (Agent Builder)
+    ↓
+    1. Discovery: System Architect analyzes domain
+    2. Deep Design: Create Agent + Skills + Scripts Blueprint
+    3. Fabrication: Forge Master generates deep content
+    4. Automation: Create Python scripts for skills
+    5. Integration: Register new Agent in system
 
 /test
     ↓

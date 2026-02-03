@@ -63,7 +63,8 @@ Invoke workflows with slash commands:
 | `/debug`         | Systematic debugging                  |
 | `/deploy`        | Deploy application                    |
 | `/enhance`       | Improve existing code                 |
-| `/forge`         | **[GENESIS]** Create Agents & Workflows |
+| `/forge-agent`   | **[GENESIS]** Create Deep Agents      |
+| `/forge-flow`    | **[GENESIS]** Create Workflows        |
 | `/orchestrate`   | Multi-agent coordination              |
 | `/plan`          | Create task breakdown                 |
 | `/preview`       | Preview changes locally               |
@@ -77,12 +78,16 @@ Example:
 /brainstorm authentication system
 /create landing page with hero section
 /debug why login fails
-/forge "Create a TCC Expert Agent"
+/forge-flow "Create a TCC Expert Workflow"
+/forge-agent "Create a Crypto Trading Bot"
 ```
 
-### 🧬 Genesis Capability (/forge)
+### 🧬 Genesis Capabilities
 
-The `/forge` command allows you to **extend the kit itself**. It uses the `System Architect` and `Forge Master` agents to create new:
+The kit now supports **Self-Replication** via two modes:
+
+1.  **/forge-flow**: Creates **Workflows** (Slash Commands). Use this when you want a repeatable process (e.g., `/deploy-aws`).
+2.  **/forge-agent**: Creates **Autonomous Agents**. Use this when you need a deep expert system with multiple skills and automation scripts (e.g., "Market Analyst").
 
 *   **Agents**: Specialized personas.
 *   **Skills**: Knowledge modules with examples.
