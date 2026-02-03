@@ -10,15 +10,20 @@
 
 ## Quick Install
 
+Since this fork is hosted on GitHub, you can use `npx` directly with the repository URL:
+
 ```bash
-npx @vudovn/ag-kit init
+npx github:ferasoliveira/antigravity-kit init
 ```
 
-Or install globally:
+This will download the latest version from this repository and install the `.agent` folder into your current project.
+
+Alternatively, you can clone and install locally:
+
+Or if you are starting a new project inside this folder, just run:
 
 ```bash
-npm install -g @vudovn/ag-kit
-ag-kit init
+npm install
 ```
 
 This installs the `.agent` folder containing all templates into your project.
@@ -76,6 +81,7 @@ Invoke workflows with slash commands:
 | `/debug`         | Systematic debugging                  |
 | `/deploy`        | Deploy application                    |
 | `/enhance`       | Improve existing code                 |
+| `/forge`         | **[GENESIS]** Create Agents & Workflows |
 | `/orchestrate`   | Multi-agent coordination              |
 | `/plan`          | Create task breakdown                 |
 | `/preview`       | Preview changes locally               |
@@ -89,7 +95,24 @@ Example:
 /brainstorm authentication system
 /create landing page with hero section
 /debug why login fails
+/forge "Create a TCC Expert Agent"
 ```
+
+### 🧬 Genesis Capability (/forge)
+
+The `/forge` command allows you to **extend the kit itself**. It uses the `System Architect` and `Forge Master` agents to create new:
+
+*   **Agents**: Specialized personas.
+*   **Skills**: Knowledge modules with examples.
+*   **Workflows**: New slash commands.
+
+**Example**:
+> "Create a market analysis agent that uses Yahoo Finance API"
+
+Result:
+1.  Creates `market-analyst` agent.
+2.  Creates `financial-data` skill.
+3.  Creates `/analyze-market` workflow.
 
 ### Using Skills
 

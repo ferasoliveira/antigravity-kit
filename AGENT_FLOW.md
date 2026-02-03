@@ -33,8 +33,10 @@
     │ /create           │      │ Based on Domain  │
     │ /debug            │      │                  │
     │ /deploy           │      │ • frontend-*     │
-    │ /enhance          │      │ • backend-*      │
-    │ /orchestrate      │      │ • mobile-*       │
+    │ /deploy           │      │ • backend-*      │
+    │ /enhance          │      │ • mobile-*       │
+    │ /forge            │      │ • database-*     │
+    │ /orchestrate      │      │ • devops-*       │
     │ /plan             │      │ • database-*     │
     │ /preview          │      │ • devops-*       │
     │ /status           │      │ • test-*         │
@@ -286,6 +288,14 @@ Slash Command Flow:
     4. Execute: Deployment scripts
     5. Verify: Health checks
     6. Output: Deployment URL
+
+/forge
+    ↓
+    1. Discovery: System Architect analyzes request
+    2. Design: Create Blueprint (Agents + Skills + Workflow)
+    3. Fabrication: Forge Master generates files (Rich Content)
+    4. Validation: Verify syntax and register components
+    5. Output: New capability ready to use
 
 /test
     ↓
