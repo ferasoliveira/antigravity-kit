@@ -1,17 +1,17 @@
 {
   "name": "antigravity-kit",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "bin": {
     "ag-kit": "./bin/cli.js"
   },
   "description": "AI Agent templates - Skills, Agents, and Workflows for enhanced coding assistance",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vudovn/antigravity-kit.git"
+    "url": "git+https://github.com/ferasoliveira/antigravity-kit.git"
   },
-  "homepage": "https://github.com/vudovn/antigravity-kit#readme",
+  "homepage": "https://github.com/ferasoliveira/antigravity-kit#readme",
   "bugs": {
-    "url": "https://github.com/vudovn/antigravity-kit/issues"
+    "url": "https://github.com/ferasoliveira/antigravity-kit/issues"
   },
   "keywords": [
     "antigravity",
@@ -21,6 +21,6 @@
     "skills",
     "templates"
   ],
-  "author": "vudovn",
+  "author": "ferasoliveira",
   "license": "MIT"
 }

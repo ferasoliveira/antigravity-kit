@@ -1,13 +1,5 @@
 # Antigravity Kit
 
-> AI Agent templates with Skills, Agents, and Workflows
-
-<div  align="center">
-    <a href="https://unikorn.vn/p/antigravity-kit?ref=unikorn" target="_blank"><img src="https://unikorn.vn/api/widgets/badge/antigravity-kit?theme=dark" alt="Antigravity Kit - Nổi bật trên Unikorn.vn" style="width: 210px; height: 54px;" width="210" height="54" /></a>
-    <a href="https://unikorn.vn/p/antigravity-kit?ref=unikorn" target="_blank"><img src="https://unikorn.vn/api/widgets/badge/antigravity-kit/rank?theme=dark&type=daily" alt="Antigravity Kit - Hàng ngày" style="width: 250px; height: 64px;" width="250" height="64" /></a>
-    <a href="https://launch.j2team.dev/products/antigravity-kit" target="_blank"><img src="https://launch.j2team.dev/badge/antigravity-kit/dark" alt="Antigravity Kit on J2TEAM Launch" width="250" height="54" /></a>
-</div>
-
 ## Quick Install
 
 Since this fork is hosted on GitHub, you can use `npx` directly with the repository URL:
@@ -17,16 +9,6 @@ npx github:ferasoliveira/antigravity-kit init
 ```
 
 This will download the latest version from this repository and install the `.agent` folder into your current project.
-
-Alternatively, you can clone and install locally:
-
-Or if you are starting a new project inside this folder, just run:
-
-```bash
-npm install
-```
-
-This installs the `.agent` folder containing all templates into your project.
 
 ## What's Included
 
